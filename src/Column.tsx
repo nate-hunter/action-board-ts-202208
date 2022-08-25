@@ -1,12 +1,15 @@
-import React from "react";
 import { Card } from "./Card";
-import { CardContainer, ColumnContainer, ColumnTitle } from "./styles";
+import {
+  ColumnContainer,
+  ColumnTitle,
+} from "./styles";
 
 type ColumnProps = {
   columnTitle: string;
 };
 
 export const Column = ({ columnTitle }: ColumnProps) => {
+
   return (
     <ColumnContainer>
       <ColumnTitle>{columnTitle}:</ColumnTitle>
