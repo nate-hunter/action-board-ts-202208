@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
   color: rgb(9, 30, 66);
+  background-color: #ebecf0;
+  /* background-color: #ced4da; */
 }
 
 *,
